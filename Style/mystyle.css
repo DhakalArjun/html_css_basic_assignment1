@@ -1,0 +1,673 @@
+@charset "utf-8";
+
+/* Develop for 
+    Developed by: Arjun Dhakal, Debora Bastos, Mihai Coanda
+    Date: Nov 3, 2022 */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 223, 248);    
+}
+#container{
+    margin:0 auto;
+    width:1700px;
+}
+
+
+/* -----------------------------------------------------------------nav_container */
+#nav_container{ 
+    margin:0;     
+    height:50px;   
+    background-color: rgb(164, 181, 196);
+       
+}
+
+#nav_container img{    
+    width:180px;
+    float:left;
+}
+
+#nav_container ul{
+    margin:20px 20px 0 0;
+    float:right;
+}
+
+#nav_container ul li{    
+    padding:0 20px 0 20px;
+    display:inline;  
+}
+/* -----------------------------------------------------------------hero_container */
+#hero_container{          
+    margin:10px 0 0 0;
+     
+}
+
+#hero_container img{
+    width:1700px;
+ object-fit: cover;
+    
+    
+}
+/* -----------------------------------------------------------------dotted line */
+.dotted_line{
+    margin:20px auto;
+    width:50px;    
+    padding:0 5px;      
+    border-top: 5px dotted gray;
+    clear:both;      
+    
+}
+
+/* -----------------------------------------------------------------upcoming_container */
+#upcoming_container header p{
+    width:300px;
+    height:30px;
+    margin:0 auto;
+    padding:15px 0 0 0;
+    text-align: center;
+    background-color: blue;
+    border-radius: 1rem;
+    color: aliceblue;
+}
+
+#left_arrow{    
+    margin:135px 0;    
+    float:left;
+}
+
+#left_arrow img{       
+    width:75px;
+    vertical-align: middle;
+    
+    
+}
+
+#upcoming_container1{
+    margin:10px 30px;
+    float:left;
+    
+}
+
+#upcoming_container1 img{
+    height:300px;
+    width:450px;
+}
+
+#upcoming_container1 ul{
+    list-style-type: none;
+
+}
+
+#upcoming_container1 ul li{   
+    display:inline;
+}
+
+.starting_date{
+    margin:2px 10px;
+    padding: 0 10px;    
+    font-size:larger;
+    text-align: left;    
+    
+}
+
+.register{
+    padding:10px;
+    background-color: rgb(180, 218, 45);
+    font-size:larger;
+    border-radius: 1rem;
+}
+
+#upcoming_container2{
+    margin:10px 30px;
+    float:left;
+}
+
+#upcoming_container2 img{
+    height:300px;
+    width:450px;    
+}
+#upcoming_container2 ul li{   
+    display:inline;
+}
+
+#upcoming_container3{
+    float:left;
+}
+
+#upcoming_container3 img{
+    height:300px;
+    width:450px;   
+}
+#upcoming_container3 ul li{   
+    display:inline;
+}
+
+#right_arrow{   
+    margin:135px 0;   
+    float:right;
+}
+
+#right_arrow img{         
+    width:75px;
+    vertical-align: middle;    
+}
+
+/* -----------------------------------------------------------------callout_container */
+#callout_container{     
+    margin:15px 0;
+}
+
+#callout_leftbar{    
+    background-color: rgb(225, 245, 171);
+    float:left;
+}
+
+#callout_container h3{
+    margin:0 20px;
+    padding:5px 0;
+    color:blue;
+}
+
+#callout_container p{
+    width:1500px;
+}
+
+#btn_enquiry{
+    margin:0;    
+    padding:20px 45px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color: rgb(146, 240, 154);   
+    color: rgb(18, 32, 44);
+    border-radius: 2rem;
+    float:right;
+
+}   
+
+
+#callout_rightbar{ 
+    
+    float:right;
+}
+#callout_rightbar p{ 
+    padding:25px 0 0 0;   
+    width:200px;
+    height: 50px; 
+    background-color: #e6abf5;
+    float:right;
+    font-size:larger;
+    border-radius: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+/* -----------------------------------------------------------------discover more course */
+
+#all_course_table{
+    border-spacing: 50px;
+    background-color: antiquewhite;       
+}
+
+#text_cell{
+    width:500px;
+    vertical-align: text-top;
+
+}
+#discover_more{
+    vertical-align: text-top;
+    color: blue;
+    
+}
+
+.course_image img{
+    width: 500px;
+    height:300px;
+
+}
+
+.course_bullet{
+    margin:2px;
+    padding:10px;
+    list-style-type:square;
+
+}
+
+.read_more{
+    margin:20px 0 0 0;
+    padding:10px 0 0 5px;
+    list-style-type: none;
+    background-color: rgb(180, 218, 45);
+    Width:90px;
+    height: 30px;
+    border-radius: 2rem;
+    text-decoration: none; 
+}
+
+.read_more:link{
+    text-decoration: none; 
+}
+
+
+/* -----------------------------------------------------------------footer */
+
+footer{
+    background-color: aquamarine;
+}
+
+
+#footer_left{
+    margin:0 400px 0 0;
+    float:left;
+}
+
+#footer_middle{
+    margin:0;
+    text-align: center;    
+    float:left;
+}
+
+#footer_right{    
+    text-align: right;
+    float:right;
+}
+
+
+#sec_naviagtion li{
+    margin:0;
+    list-style-type: none;
+    display:inline;
+    font-size: small;
+    text-align: left;
+}
+#social_media_icon1 img{
+    width:30px;
+}
+
+#social_media_icon2 img{
+    width:65px;
+}
+
+#social_media_icon3 img{
+    width:40px;
+}
+#social_media_icon4 img{
+    width:30px;
+}
+
+#footer_bottom{    
+    padding:1px;
+    text-align: center;
+    clear:both;
+}
+/* ==============================================================================================================================================
+ ------------------------------------------------------------------ ABOUT PAGE -----------------------------------------------------------------*/ 
+#about_container {
+    margin:0 auto;
+    width:1700px;
+
+  }
+  #about_top_container{
+    margin:10px 0 0 0;
+  }
+  #about_top_left {
+    width: 700px;
+    margin: 10px 0;
+    background-color: rgb(255, 127, 133);
+    float: left;
+  }
+  
+  #about_top_mid {
+    margin: 10px 50px;
+    float: left;
+  }
+  
+  #about_top_mid img{
+    height: 340px;
+    width:450px;
+  }
+  
+  #about_top_right {
+    margin: 10px 0;
+    float: right;
+  }
+  #about_top_right img {
+    height: 340px;
+    width:450px;
+  }
+
+  #contact_container{
+    height:250px;
+    width:1700px;
+    background-color: blueviolet;
+
+  }
+  
+  #contact{
+    text-align: center;
+    clear:both;
+  }
+
+  #contact_container img{        
+    margin:0 auto;
+    width:100px;
+ 
+  }
+
+  #contact_container p{
+    text-align: center;
+  }
+
+  #testimonials img{
+    margin:0 auto;
+    width:200px;
+  }
+
+/* ==============================================================================================================================================
+ ------------------------------------------------------------------ COURSE PAGE -----------------------------------------------------------------*/
+
+ #program_title{
+    color:blue;
+ }
+
+ #course_top_left{
+    Width:600px;
+    float:left;
+ }
+
+ #course_top_rigth{
+    Width:1100px;
+    float:right;
+ }
+
+ #course_top_rigth img{
+    float:right;
+ }
+
+ /* ==============================================================================================================================================
+ ------------------------------------------------------------------ FAQ PAGE -----------------------------------------------------------------*/
+ #faq_container {
+    margin:0 auto;
+    width:1700px;
+ }
+
+ 
+
+ #faq_table{
+    margin:10px auto;
+    padding: 2px;;
+ }
+ 
+.question{
+    font-weight: bold;
+}
+
+ /* ==============================================================================================================================================
+ ---------------------------------------------------------------Form LogIn Page -----------------------------------------------------------------*/
+
+#login_container{
+    margin:100px auto;
+    width:350px;
+    height:250px;
+}
+
+.form_logo{
+    margin:10px 0;
+    width:150px;
+}
+
+#form_login{
+    background-color: #d1eec0;
+}
+
+
+#login_container table{
+   margin:2px 0;
+   padding:2px 2px; 
+   border-spacing:10px; 
+   font-size: large;    
+}
+
+#btn_go_back{
+    margin:0 0 0 115px;    
+    padding:2px 10px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color:grey;  
+    color: white;
+    border-radius: 2rem; 
+    float:left;
+    display:inline;
+}
+
+#btn_login{
+    margin:0 0 0 20px;    
+    padding:2px 10px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color:grey;  
+    color: aliceblue;
+    border-radius: 2rem; 
+    float:left;
+     
+}
+
+  /* ==============================================================================================================================================
+ ------------------------------------------------------------Massage LogIn Completed Page ---------------------------------------------------------*/
+ #login_complete_container{
+    margin:100px auto;
+    width:380px;
+    height:250px;
+}
+
+#login_complete_container form{
+    font-weight: bold;
+    background-color: #d1eec0;
+}
+
+#go_to_home{
+    margin:20px 0 0 185px;    
+    padding:2px 5px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color: grey;   
+    color: aliceblue;
+    border-radius: 2rem;
+}
+  /* ==============================================================================================================================================
+ ---------------------------------------------------------------Form Register Page ---------------------------------------------------------------*/
+
+#register_container{
+    margin:100px auto;
+    width:500px;
+    height:500px;
+}
+
+ #form_register{
+    background-color: #e9eec0;
+}
+
+#personal_info{
+    margin:2px 0;
+    padding:2px 2px; 
+    border-spacing:10px; 
+    font-size: large;    
+ }
+
+#fld_class_mode{
+    margin:2px 0;
+    padding:10px 2px; 
+    width:215px;
+    border-spacing:10px;    
+}
+
+#fld_class_mode legend{ 
+    font-size: large; 
+}
+
+#fld_availability{
+    margin:2px 0;
+    padding:10px 2px; 
+    width:215px;
+         
+}
+
+#fld_availability legend{ 
+    font-size: large; 
+}
+
+#fld_interested{
+    margin:10px 0;
+    padding:2px 2px; 
+    width:445px;
+    border-spacing:10px;    
+}
+
+#fld_interested legend{ 
+    font-size: large; 
+}
+
+#btn_reset{
+    margin:20px 0 0 20px;    
+    padding:2px 20px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color:grey;  
+    color: aliceblue;
+    border-radius: 2rem; 
+    float:left;
+}
+
+ #btn_register{
+    margin:20px 0 0 20px;    
+    padding:2px 10px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color:rgb(12, 238, 42);  
+    color: rgb(12, 5, 2);
+    border-radius: 2rem; 
+    float:left;
+}
+
+#btn_cancel{
+    margin:20px 0 0 150px;    
+    padding:2px 13px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color:rgb(233, 146, 146);  
+    color: white;
+    border-radius: 2rem; 
+    float:left;
+    display:inline;
+}
+
+#tbl_interested{
+    margin:2px 0;
+    padding:2px 2px; 
+    border-spacing:10px;        
+ }
+
+
+  /* ==============================================================================================================================================
+ ----------------------------------------------------------------- LogIn Completed Page ---------------------------------------------------------*/
+ #register_complete_container{
+    margin:100px auto;
+    width:380px;
+    height:250px;
+}
+
+#register_complete_container img{
+    margin:10px 0;
+    width:150px;
+}
+
+#register_complete_container form{    
+    background-color: #d1eec0;
+}
+
+#complete_msg{
+    line-height: 30px;
+}
+
+#btn_close{
+    margin:25px 140px 5px;   
+    padding:2px 12px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color: grey;   
+    color: aliceblue;
+    border-radius: 2rem;
+}
+
+/* ==============================================================================================================================================
+---------------------------------------------------------------Form Enquiry Page ---------------------------------------------------------------*/
+#enquiry_container{
+    margin:100px auto;
+    width:590px;
+    height:700px;
+}
+
+#form_enquiry{
+    margin:2px auto;
+}
+
+#form_enquiry table{
+    margin:2px 10px;
+    padding:2px 2px; 
+    border-spacing:30px;        
+}
+
+#btn_send{
+    margin:0 0 0 20px;    
+    padding:2px 10px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color:rgb(152, 158, 152);  
+    color: rgb(12, 5, 2);
+    border-radius: 2rem; 
+    float:left;
+}
+
+#btn_cancel_enquiry{
+    margin:0 0 0 255px;    
+    padding:2px 13px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color:rgb(233, 146, 146);  
+    color: white;
+    border-radius: 2rem; 
+    float:left;
+    display:inline;
+}
+
+/* ==============================================================================================================================================
+----------------------------------------------------------------- Enquiry Completed Page ---------------------------------------------------------*/
+#enquiry_complete_container{
+    margin:100px auto;
+    width:380px;
+    height:250px;
+}
+
+#enquiry_complete_container img{
+    margin:10px 0;
+    width:150px;
+}
+
+#register_complete_container form{    
+    background-color: #d1eec0;
+}
+
+#complete_msg{
+    line-height: 30px;
+}
+
+#enquiry_complete_container #btn_close{
+    margin:25px 140px 5px;   
+    padding:2px 12px; 
+    border-spacing:10px; 
+    font-size: large;
+    background-color: grey;   
+    color: aliceblue;
+    border-radius: 2rem;
+}
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/logo.png">
+    <link rel="stylesheet" href="Style/mystyle.css">
+    <title>ADM BootCamp- LOGIN</title>
+  </head>
+
+  <body>
+    <div id="login_container">
+      <header>
+        <img class="form_logo" src="Image/logo.png" alt="logo image">
+      </header>
+      <main>
+        <form id="form_login" action="msg_login.html" method="get">
+          <fieldset>
+            <legend >Login as Administrator</legend>
+            <table>
+              <tr>
+                <td><label for="user_id">User ID*</label></td>
+                <td>
+                  <input type="text" id="user_id" size="20" maxlength="30" placeholder="user" required="Requried">
+                </td>
+              </tr>
+              <tr>
+                <td><label for="login_password">Password*</label></td>
+                <td>
+                  <input type="password" id="login_password" size="20" maxlength="30" required="Requried">
+                </td>
+              </tr>
+            </table>
+            <input id="btn_go_back" type="button" value="Cancel" onclick="history.back()">
+            <input id="btn_login" type="submit" value="Login">   
+          </fieldset>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

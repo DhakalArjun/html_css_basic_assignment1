@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/logo.png">
+    <link rel="stylesheet" href="Style/mystyle.css">
+    <title>ADM BootCamp- Register</title>
+  </head>
+
+  <body>
+    <div id="register_container">
+      <header>
+        <img class="form_logo" src="Image/logo.png" alt="logo image">
+      </header>
+      <main>
+        <form id="form_register" action="msg_register.html" method="get">
+          <fieldset>
+            <table id="personal_info">
+                <tr>
+                    <td><label for="first_name">First Name *</label><br>
+                        <input type="text" id="first_name" size="25" maxlength="30" required="Requried">
+                    </td>
+                    <td><label for="last_name">Last Name *</label><br>
+                        <input type="text" id="last_name" size="25" maxlength="30" required="Requried">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail *</label><br>
+                        <input type="text" id="email" size="25" maxlength="30" placeholder="example: John.smith@mail.com" required="Requried">
+                    </td>
+                    <td><label for="last_name">Phone</label><br>
+                        <input type="text" id="last_name" size="25" maxlength="30">
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td> 
+                        <fieldset id="fld_class_mode">
+                            <legend>Select Class Mode</legend>
+                            <input type="radio" name="class_mode" id="mode_choice1" value="On-Class"> <label for="mode_choice1"> On-Class</label> <br>
+                            <input type="radio" name="class_mode" id="mode_choice2" value="Online"> <label for="mode_choice2"> Online</label> <br>
+                            <input type="radio" name="class_mode" id="mode_choice3" value="Hybrid"> <label for="mode_choice3"> Hybrid</label>
+                        </fieldset>
+                    </td>
+                    <td> 
+                        <fieldset id="fld_availability">
+                            <legend>Availability</legend>
+                            <input type="radio" name="availability" id="availability_choice1" value="full_time"> <label for="availability_choice1"> Full time</label> <br>
+                            <input type="radio" name="availability" id="availability_choice2" value="part-time"> <label for="availability_choice2"> Part time</label> <br>
+                            <input type="radio" name="availability" id="availability_choice3" value="weekend-only"> <label for="availability_choice3"> Weekend only</label>
+                        </fieldset>
+                    </td>                     
+                </tr>
+            </table>            
+                <fieldset id="fld_interested">
+                    <legend>Interested In</legend>
+                    <table id="tbl_interested">
+                        <tr>                    
+                            <td><input type="checkbox" name="interested" id="interested_choice1" value="web-devlopment"> <label for="interested_choice1"> Web Development</label></td>    
+                            <td> <input type="checkbox" name="interested" id="interested_choice2" value="full-stack-development"> <label for="interested_choice2"> Full Stack Development</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="interested" id="interested_choice3" value="dev-ops"> <label for="interested_choice3"> Dev-Ops</label></td>
+                            <td><input type="checkbox" name="interested" id="interested_choice4" value="data-analysis"> <label for="interested_choice4"> Data Analysis</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="interested" id="interested_choice5" value="data-science"> <label for="interested_choice5"> Data Science</label></td>
+                            <td></td>
+                        </tr>
+                    </table>                      
+                </fieldset>
+            <input id="btn_cancel" type="button" value="Cancel" onclick="history.back()">
+            <input id="btn_reset" type="reset" value="Reset">
+            <input id="btn_register" type="submit" value="Register">   
+          </fieldset>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
